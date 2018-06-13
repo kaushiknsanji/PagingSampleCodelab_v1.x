@@ -9,12 +9,12 @@ _**This Sample here has been rewritten in Java for Java Developers!**_
 The App displays a list of Github Repositories using the [Github API](https://developer.github.com/v3/) for the search query entered. The query will be searched in the **Name** and **Description** fields of the Github repositories. The data is saved in the local database cache that is backed by the network data. As the user scrolls to the end of the displayed list, a new network request is triggered and the results are displayed and saved in the database.
 
 This App sample here uses -
-* Room - for local database cache.
-* LiveData and ViewModel - for maintaining the data of the App.
-* DataBinding - for binding View elements to their data. (Not present in the Google's Kotlin sample which employs Kotlin's features and Android KTX to accomplish the same)
-* [Retrofit](https://square.github.io/retrofit/) and [Okhttp](https://square.github.io/okhttp/) - for communicating with the Github API.
-* Repository pattern as per the [Guide to App Architecture](https://developer.android.com/topic/libraries/architecture/guide.html).
-* Java 8 lambdas.
+* **Room** - for local database cache.
+* **LiveData** and **ViewModel** - for maintaining the data of the App.
+* **DataBinding** - for binding View elements to their data. (Not present in the Google's Kotlin sample which employs Kotlin's features and Android KTX to accomplish the same)
+* **[Retrofit](https://square.github.io/retrofit/)** and **[Okhttp](https://square.github.io/okhttp/)** - for communicating with the Github API.
+* **Repository pattern** as per the [Guide to App Architecture](https://developer.android.com/topic/libraries/architecture/guide.html).
+* **Java 8 lambdas**.
 
 In this Codelab, one will learn how to integrate the [Paging Library](https://developer.android.com/topic/libraries/architecture/paging.html) components to accomplish the pagination task.
 
