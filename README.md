@@ -1,8 +1,10 @@
-# Android Paging Sample
+# Android Paging v1.x Sample
 
 This App has been developed, following the instructions given in the Google Codelab [Android Paging](https://codelabs.developers.google.com/codelabs/android-paging/index.html#0). The original code by Google for this codelab can be referred [here](https://github.com/googlecodelabs/android-paging), which contains codes written in Kotlin. 
 
 _**This Sample here has been rewritten in Java for Java Developers!**_
+
+_**Deprecation Note:** With the new and updated **"Paging library v3.x"** and the updated [source documentation](https://developer.android.com/topic/libraries/architecture/paging/v3-overview) which has _Java_ based codes, this repository is enough outdated and hence archiving it. Thank you all for the support till date._  
 
 ## What you will build
 
@@ -25,12 +27,12 @@ In this Codelab, one will learn how to integrate the [Paging Library](https://de
 
 ### Branches in this Repository
 
-* **[todo-starter-code](https://github.com/kaushiknsanji/PagingSampleCodelab/tree/todo-starter-code)**
+* **[todo-starter-code](https://github.com/kaushiknsanji/PagingSampleCodelab_v1.x/tree/todo-starter-code)**
     * This is the repository to start working with.
 	* Contains codes written in Java.
 	* Contains **TODOs** where one needs to write code. This is suitably marked such that a Java developer can follow with the existing Kotlin Codelab. 
 	* Each Codelab step where one needs to write code, has been marked with the TODO comment following the syntax `//TODO(Step-X): ` where **`X`** is the Codelab Step number. This number may change if the original codelab changes.
-* **[solution-code](https://github.com/kaushiknsanji/PagingSampleCodelab/tree/solution-code)**
+* **[solution-code](https://github.com/kaushiknsanji/PagingSampleCodelab_v1.x/tree/solution-code)**
     * This is the repository for the Solution code written in Java.
 	
 ### Differences with respect to the Original Kotlin sample
